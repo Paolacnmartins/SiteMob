@@ -14,6 +14,11 @@ import { NaveinternetComponent } from './paginas/naveinternet/naveinternet.compo
 import { InstitutocativarComponent } from './paginas/institutocativar/institutocativar.component';
 import { PmmrComponent } from './paginas/pmmr/pmmr.component';
 import { ForumantirracistaComponent } from './paginas/forumantirracista/forumantirracista.component';
+import { EventosComponent } from './paginas/eventos/eventos.component';
+import { ArtegrafiteComponent } from './paginas/artegrafite/artegrafite.component';
+import { EducacaoComponent } from './paginas/educacao/educacao.component';
+import { FotografiaComponent } from './paginas/fotografia/fotografia.component';
+import { TematicasComponent } from './paginas/tematicas/tematicas.component';
 
 
 @NgModule({
@@ -30,6 +35,11 @@ import { ForumantirracistaComponent } from './paginas/forumantirracista/forumant
     InstitutocativarComponent,
     PmmrComponent,
     ForumantirracistaComponent,
+    EventosComponent,
+    ArtegrafiteComponent,
+    EducacaoComponent,
+    FotografiaComponent,
+    TematicasComponent,
 
   ],
   imports: [
