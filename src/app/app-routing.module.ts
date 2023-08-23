@@ -15,6 +15,7 @@ import { ArtegrafiteComponent } from './paginas/artegrafite/artegrafite.componen
 import { EducacaoComponent } from './paginas/educacao/educacao.component';
 import { FotografiaComponent } from './paginas/fotografia/fotografia.component';
 import { TematicasComponent } from './paginas/tematicas/tematicas.component';
+import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 
 
 
@@ -33,6 +34,7 @@ const routes: Routes = [
  { path: 'Educacao', component: EducacaoComponent},
  {path: 'Fotografia', component:FotografiaComponent },
  {path: 'Tematicas', component:TematicasComponent },
+ {path:'FullStack', component: FullStackComponent }
 ]
 
 @NgModule({
