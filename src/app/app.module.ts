@@ -19,6 +19,8 @@ import { ArtegrafiteComponent } from './paginas/artegrafite/artegrafite.componen
 import { EducacaoComponent } from './paginas/educacao/educacao.component';
 import { FotografiaComponent } from './paginas/fotografia/fotografia.component';
 import { TematicasComponent } from './paginas/tematicas/tematicas.component';
+import { FullStackComponent } from './paginas/full-stack/full-stack.component';
+import { FotosComponent } from './paginas/fotos/fotos.component';
 
 
 @NgModule({
@@ -40,6 +42,8 @@ import { TematicasComponent } from './paginas/tematicas/tematicas.component';
     EducacaoComponent,
     FotografiaComponent,
     TematicasComponent,
+    FullStackComponent,
+    FotosComponent,
 
   ],
   imports: [
