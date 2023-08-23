@@ -1,16 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 
-body {
-    background: #F0FFFF;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-}
 
 .card-body {
     border-radius: none;
@@ -20,8 +8,7 @@ body {
 }
 
 .card {
-    background: linear-gradient(to right, transparent, #fff0f9);
-    border: none;
+        border: none;
 }
 
 .card-text {
