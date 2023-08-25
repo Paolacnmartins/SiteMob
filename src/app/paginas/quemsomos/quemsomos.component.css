@@ -1,17 +1,29 @@
-
-
 .card-body {
     border-radius: none;
     border-style: none;
     border: none;
-    text-align: justify;
+
 }
 
 .card {
-        border: none;
+    border: none;
+    background-color: transparent;
 }
 
-.card-text {
-    color: #131212;
+
+
+#textoo {
+    background-color: #131212;
+    color: #c5c321 !important;
 }
 
+#corcard {
+    background-color: #131212;
+    color: #c5c321 !important;
+    text-align: center;
+}
+
+#teste {
+    background-color: #131212;
+    width: 100vw;
+}
