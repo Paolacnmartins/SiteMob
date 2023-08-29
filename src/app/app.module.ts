@@ -21,6 +21,7 @@ import { FotografiaComponent } from './paginas/fotografia/fotografia.component';
 import { TematicasComponent } from './paginas/tematicas/tematicas.component';
 import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 import { FotosComponent } from './paginas/fotos/fotos.component';
+import { LoginComponent } from './paginas/login/login.component';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { FotosComponent } from './paginas/fotos/fotos.component';
     TematicasComponent,
     FullStackComponent,
     FotosComponent,
+    LoginComponent,
 
   ],
   imports: [
