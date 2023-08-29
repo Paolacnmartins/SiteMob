@@ -17,6 +17,7 @@ import { FotografiaComponent } from './paginas/fotografia/fotografia.component';
 import { TematicasComponent } from './paginas/tematicas/tematicas.component';
 import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 import { FotosComponent } from './paginas/fotos/fotos.component';
+import { LoginComponent } from './paginas/login/login.component';
 
 
 
@@ -37,6 +38,7 @@ const routes: Routes = [
  {path: 'Tematicas', component:TematicasComponent },
  {path:'FullStack', component: FullStackComponent },
  {path: 'Fotos', component:FotosComponent },
+ {path: 'Login', component: LoginComponent},
 ]
 
 @NgModule({
