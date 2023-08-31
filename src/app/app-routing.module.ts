@@ -18,6 +18,7 @@ import { TematicasComponent } from './paginas/tematicas/tematicas.component';
 import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 import { FotosComponent } from './paginas/fotos/fotos.component';
 import { LoginComponent } from './paginas/login/login.component';
+import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadfullstack.component';
 
 
 
@@ -39,6 +40,7 @@ const routes: Routes = [
  {path:'FullStack', component: FullStackComponent },
  {path: 'Fotos', component:FotosComponent },
  {path: 'Login', component: LoginComponent},
+ {path: 'FormFullStack', component: FormcadfullstackComponent}
 ]
 
 @NgModule({

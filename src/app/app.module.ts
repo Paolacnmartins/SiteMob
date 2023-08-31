@@ -22,6 +22,7 @@ import { TematicasComponent } from './paginas/tematicas/tematicas.component';
 import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 import { FotosComponent } from './paginas/fotos/fotos.component';
 import { LoginComponent } from './paginas/login/login.component';
+import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadfullstack.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import { LoginComponent } from './paginas/login/login.component';
     FullStackComponent,
     FotosComponent,
     LoginComponent,
+    FormcadfullstackComponent,
 
   ],
   imports: [
