@@ -1,6 +1,6 @@
 <div class="container">
     <div class="form-image">
-        <img src="./Imagens/FotoCadAlunos.jpg">
+        <img src="assets/imagens/FotoMissao.jpeg">
     </div>
     <div class="form">
         <form action="#">
@@ -9,7 +9,7 @@
                     <h1>Cadastro dos Alunos</h1>
                 </div>
                 <div class="login-button">
-                    <button> <a href="Index.html"> HOME </a></button>
+                    <button> <a button class="btn btn-dark" routerLink=" ">Início </a></button>
                 </div>
             </div>
 
@@ -39,57 +39,46 @@
                     <label for="EmailAluno"> Email: </label>
                     <input id="EmailAluno" type="email" name="Email do Aluno" required>
                 </div>
-
-                <div class="input-box">
-                    <label for="EnderecoAluno"> Rua: </label>
-                    <input id="EnderecoAluno" type="text" name="Endereco do Aluno" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="EnderecoAluno"> Numero: </label>
-                    <input id="EnderecoAluno" type="text" name="Endereco do Aluno" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="EnderecoAluno"> Complemento: </label>
-                    <input id="EnderecoAluno" type="text" name="Endereco do Aluno" required>
-                </div>
-                <div class="input-box">
-                    <label for="EnderecoAluno"> Bairro: </label>
-                    <input id="EnderecoAluno" type="text" name="Endereco do Aluno" required>
-                </div>
-                <div class="input-box">
-                    <label for="EnderecoAluno"> Cidade: </label>
-                    <input id="EnderecoAluno" type="text" name="Endereco do Aluno" required>
-                </div>
-            </div>
-
-            <div class="gender-inputs">
-                <div class="gender-title">
-                    <h2> Escolha o Período do Estudante: </h2>
-                </div>
-
-                <div class="gender-group">
-                    <div class="gender-input">
-                        <input type="radio" id="manha" name="gender">
-                        <label for="manha">Manhã: 7h00 às 12h20</label>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h2> Qual sua disponibilidade para participar das aulas? </h2>
                     </div>
-                    <div class="gender-input">
-                        <input type="radio" id="tarde" name="gender">
-                        <label for="tarde">Tarde: 13h00 às 18h20</label>
-                    </div>
-                    <div class="gender-input">
-                        <input type="radio" id="noite" name="gender">
-                        <label for="noite">Noite: 19h00 às 23h00</label>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="manha" name="gender">
+                            <label for="manha">Manhã</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="tarde" name="gender">
+                            <label for="tarde">Tarde</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="noite" name="gender">
+                            <label for="noite">Noite</label>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h2> Você possui algum conhecimento em programação? </h2>
+                    </div>
 
-            <div class="continue-button">
-                <button> <a href="Index.html"> Enviar o Cadastro </a> </button>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="manha" name="gender">
+                            <label for="manha">SIM</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="tarde" name="gender">
+                            <label for="tarde">NÃO</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button> <a href="Index.html"> Enviar o Cadastro </a> </button>
+                </div>
             </div>
         </form>
-
     </div>
-
 </div>
