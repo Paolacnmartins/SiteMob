@@ -3,7 +3,7 @@
         <img src="assets/imagens/FotoMissao.jpeg">
     </div>
     <div class="form">
-        <form action="#">
+        <form [formGroup]="checkoutForm" (ngSubmit)="salvarTarefa()">
             <div class="form-header">
                 <div class="title">
                     <h1>Cadastro dos Alunos</h1>
@@ -16,28 +16,27 @@
             <div class="input-group">
                 <div class="input-box">
                     <label for="NomeAluno"> Nome Completo: </label>
-                    <input id="NomeAluno" type="text" name="Nome do Aluno" placeholder="Digite o Nome Completo"
-                        required>
+                    <input type="text" class="form-control" id="nome" formControlName="nome" required>
                 </div>
 
                 <div class="input-box">
                     <label for="RGAluno"> RG: </label>
-                    <input id="RGAluno" type="number" name="RG do Aluno" required>
+                    <input type="text" class="form-control" id="rg" formControlName="rg" required>
                 </div>
 
                 <div class="input-box">
                     <label for="CPFAluno"> CPF: </label>
-                    <input id="CPFAluno" type="number" name="CPF do Aluno" required>
+                    <input type="text" class="form-control" id="cpf" formControlName="cpf" required>
                 </div>
 
                 <div class="input-box">
-                    <label for="ContatoAluno"> Contato: </label>
-                    <input id="ContatoAluno" type="tel" name="Contato do Aluno" required>
+                    <label for="ContatoAluno"> Telefone: </label>
+                    <input type="text" class="form-control" id="telefone" formControlName="telefone" required>
                 </div>
 
                 <div class="input-box">
                     <label for="EmailAluno"> Email: </label>
-                    <input id="EmailAluno" type="email" name="Email do Aluno" required>
+                    <input type="text" class="form-control" id="email" formControlName="email" required>
                 </div>
                 <div class="gender-inputs">
                     <div class="gender-title">
@@ -46,15 +45,15 @@
 
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input type="radio" id="manha" name="gender">
+                            <input type="radio" id="periodo" formControlName="periodo" name="gender">
                             <label for="manha">Manhã</label>
                         </div>
                         <div class="gender-input">
-                            <input type="radio" id="tarde" name="gender">
+                            <input type="radio" id="periodo" formControlName="periodo" name="gender">
                             <label for="tarde">Tarde</label>
                         </div>
                         <div class="gender-input">
-                            <input type="radio" id="noite" name="gender">
+                            <input type="radio" id="periodo" formControlName="periodo" name="gender">
                             <label for="noite">Noite</label>
                         </div>
                     </div>
@@ -66,17 +65,17 @@
 
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input type="radio" id="manha" name="gender">
+                            <input type="radio" id="programacao" formControlName="programacao" name="gender">
                             <label for="manha">SIM</label>
                         </div>
                         <div class="gender-input">
-                            <input type="radio" id="tarde" name="gender">
+                            <input type="radio" id="programacao" formControlName="programacao" name="gender">
                             <label for="tarde">NÃO</label>
                         </div>
                     </div>
                 </div>
                 <div class="continue-button">
-                    <button> <a href="Index.html"> Enviar o Cadastro </a> </button>
+                    <button type="submit"> Enviar o Cadastro </button>
                 </div>
             </div>
         </form>

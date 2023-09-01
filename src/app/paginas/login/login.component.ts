@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  checkoutForm: FormGroup;
+
+  constructor(private formBuilder: FormBuilder) {
+    this.checkoutForm = this.formBuilder.group({
+      email: '',
+      senha: '',
+      
+    });
+  }
 }

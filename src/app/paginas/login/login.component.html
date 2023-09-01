@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="logo">
-                    <span class="logo-font">ADM</span> da Mob!
+                    <span class="logo-font">ADM</span> da MOB!
                 </div>
             </div>
         </div>
@@ -11,20 +11,20 @@
             <div class="col-sm-6">
                 <br>
                 <h3 class="header-title">FAZER LOGIN</h3>
-                <form class="login-form">
+                <form [formGroup]="checkoutForm" class="login-form">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="E-mail ou Telefone">
+                        <input type="text" class="form-control" id="email" formControlName="email">
                     </div>
                     <div class="form-group">
-                        <input type="Senha" class="form-control" placeholder="Senha">
+                        <input type="text" class="form-control" id="senha" formControlName="senha">
                         <a href="#!" class="forgot-password">Esqueceu sua senha?</a>
                     </div>
                     <div class="form-group">
-                        <a href="Usuário.html" button class="btn btn-primary btn-block">ENTRAR </a> 
-                        <a href="Index.html" button class="btn btn-primary btn-block">VOLTAR A TELA INICIAL </a>   
+                        <button class="btn btn-primary btn-block">ENTRAR </button> <br>
+                        <a routerLink="/" button class="btn btn-primary btn-block">VOLTAR A TELA INICIAL </a>
                     </div>
                     <div class="form-group">
-                        <div class="text-center">Ainda não tem conta? <a href="CadPaisToristas.html">Cadastre-se</a>
+                        <div class="text-center">Ainda não tem conta? <a routerLink="#">Cadastre-se</a>
                         </div>
                     </div>
                 </form>
@@ -50,18 +50,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="CadAlun.html" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="CadPaisToristas.html" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <script type='text/javascript'></script>
-
-

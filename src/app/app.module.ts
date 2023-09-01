@@ -23,6 +23,8 @@ import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 import { FotosComponent } from './paginas/fotos/fotos.component';
 import { LoginComponent } from './paginas/login/login.component';
 import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadfullstack.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -53,6 +55,8 @@ import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadful
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
