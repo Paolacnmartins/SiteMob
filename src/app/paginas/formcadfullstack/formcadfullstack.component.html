@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="form-image">
+        <img src="assets/imagens/FotoMissao.jpeg">
+    </div>
+    <div class="form">
+        <form [formGroup]="checkoutForm" (ngSubmit)="salvarTarefa()">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Cadastro dos Alunos</h1>
+                </div>
+                <div class="login-button">
+                    <button> <a button class="btn btn-dark" routerLink=" ">Início </a></button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="NomeAluno"> Nome Completo: </label>
+                    <input type="text" class="form-control" id="nome" formControlName="nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="RGAluno"> RG: </label>
+                    <input type="text" class="form-control" id="rg" formControlName="rg" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="CPFAluno"> CPF: </label>
+                    <input type="text" class="form-control" id="cpf" formControlName="cpf" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="ContatoAluno"> Telefone: </label>
+                    <input type="text" class="form-control" id="telefone" formControlName="telefone" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="EmailAluno"> Email: </label>
+                    <input type="text" class="form-control" id="email" formControlName="email" required>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h2> Qual sua disponibilidade para participar das aulas? </h2>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="periodo" formControlName="periodo" name="gender">
+                            <label for="manha">Manhã</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="periodo" formControlName="periodo" name="gender">
+                            <label for="tarde">Tarde</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="periodo" formControlName="periodo" name="gender">
+                            <label for="noite">Noite</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h2> Você possui algum conhecimento em programação? </h2>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="programacao" formControlName="programacao" name="gender">
+                            <label for="manha">SIM</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="programacao" formControlName="programacao" name="gender">
+                            <label for="tarde">NÃO</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button type="submit"> Enviar o Cadastro </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -22,6 +22,9 @@ import { TematicasComponent } from './paginas/tematicas/tematicas.component';
 import { FullStackComponent } from './paginas/full-stack/full-stack.component';
 import { FotosComponent } from './paginas/fotos/fotos.component';
 import { LoginComponent } from './paginas/login/login.component';
+import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadfullstack.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -46,11 +49,14 @@ import { LoginComponent } from './paginas/login/login.component';
     FullStackComponent,
     FotosComponent,
     LoginComponent,
+    FormcadfullstackComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
