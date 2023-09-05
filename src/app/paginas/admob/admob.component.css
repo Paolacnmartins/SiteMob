@@ -1,0 +1,13 @@
+body {
+    background-image: url('assets/imagens/2014.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Isso garante que a imagem cubra toda a tela */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+/* Estilos adicionais para o conteúdo da página */
+.container {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+    padding: 20px; /* Espaçamento interno do conteúdo */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para facilitar a leitura */
+}
