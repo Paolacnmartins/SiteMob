@@ -25,6 +25,8 @@ import { LoginComponent } from './paginas/login/login.component';
 import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadfullstack.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
+import { AdmobComponent } from './paginas/admob/admob.component';
+import { ListagemfullstackComponent } from './paginas/listagemfullstack/listagemfullstack.component';
 
 
 @NgModule({
@@ -50,6 +52,8 @@ import { HttpClientModule } from "@angular/common/http";
     FotosComponent,
     LoginComponent,
     FormcadfullstackComponent,
+    AdmobComponent,
+    ListagemfullstackComponent,
 
   ],
   imports: [

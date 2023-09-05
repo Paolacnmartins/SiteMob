@@ -11,7 +11,7 @@
             <div class="col-sm-6">
                 <br>
                 <h3 class="header-title">FAZER LOGIN</h3>
-                <form [formGroup]="checkoutForm" class="login-form">
+                <form [formGroup]="checkoutForm" class="login-form" (ngSubmit)="logar()">
                     <div class="form-group">
                         <input type="text" class="form-control" id="email" formControlName="email">
                     </div>
@@ -20,37 +20,14 @@
                         <a href="#!" class="forgot-password">Esqueceu sua senha?</a>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-primary btn-block">ENTRAR </button> <br>
-                        <a routerLink="/" button class="btn btn-primary btn-block">VOLTAR A TELA INICIAL </a>
+                        <button class="btn btn-outline-warning">ENTRAR </button> <br>
+                        <a routerLink="/" button class="btn btn-outline-warning">VOLTAR A TELA INICIAL </a>
                     </div>
                     <div class="form-group">
                         <div class="text-center">Ainda não tem conta? <a routerLink="#">Cadastre-se</a>
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="col-sm-6 hide-on-mobile">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                    </ul>
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="slider-feature-card">
-                                <img src="./Imagens/AlunosLogin.jpg" alt="">
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="slider-feature-card">
-                                <img src="./Imagens/PaisLogin.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
