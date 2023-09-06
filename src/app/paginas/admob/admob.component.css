@@ -1,5 +1,5 @@
 body {
-    background-image: url('assets/imagens/2014.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-image: src=assets/imagens/2014.jpg; /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
     background-size: cover; /* Isso garante que a imagem cubra toda a tela */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
