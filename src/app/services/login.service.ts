@@ -18,7 +18,7 @@ export class LoginService {
   logar({ email, senha }: LoginProp) {
     if (email == this.email && senha == this.senha) {
       this.logado = true
-      this.router.navigate(["AdmMob"])
+      this.router.navigate(["listagemFullStack"])
     } else{
       alert ("Email e Senha Invalidos")
     }
