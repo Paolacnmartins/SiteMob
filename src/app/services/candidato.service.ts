@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 
 export type Candidato = {
   nome: string; 
-	RG: string; 
-	CPF: string; 
+	rg: string; 
+	cpf: string; 
 	telefone: string; 
 	email: string; 
 	periodo: string; 
