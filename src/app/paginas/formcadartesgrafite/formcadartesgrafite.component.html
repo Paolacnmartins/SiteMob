@@ -1,12 +1,12 @@
 <div class="container">
     <div class="form-image">
-        <img src="assets/imagens/FotoMissao.jpeg">
+        <img src="assets/imagens/artegrafite1.jpeg">
     </div>
     <div class="form">
         <form [formGroup]="checkoutForm" (ngSubmit)="salvarTarefa()">
             <div class="form-header">
                 <div class="title">
-                    <h1>Cadastro dos Alunos</h1>
+                    <h1>Cadastro dos Alunos - Oficina Arte Grafite</h1>
                 </div>
                 <div class="login-button">
                     <button> <a button class="btn btn-dark" routerLink=" ">Início </a></button>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="gender-inputs">
                     <div class="gender-title">
-                        <h2> Qual sua disponibilidade para participar das aulas? </h2>
+                        <h2> Qual sua disponibilidade para participar das oficinas? </h2>
                     </div>
 
                     <div class="gender-group">
@@ -55,22 +55,6 @@
                         <div class="gender-input">
                             <input type="radio" value="Noite" id="periodo" formControlName="periodo" name="gender">
                             <label for="noite">Noite</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="gender-inputs">
-                    <div class="gender-title">
-                        <h2> Você possui algum conhecimento em programação? </h2>
-                    </div>
-
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <input type="radio" value="SIM" id="programacao" formControlName="programacao" name="programacao">
-                            <label for="manha">SIM</label>
-                        </div>
-                        <div class="gender-input">
-                            <input type="radio" value="NAO" id="programacao" formControlName="programacao" name="programacao">
-                            <label for="tarde">NÃO</label>
                         </div>
                     </div>
                 </div>

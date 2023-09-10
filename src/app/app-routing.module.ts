@@ -21,6 +21,10 @@ import { LoginComponent } from './paginas/login/login.component';
 import { FormcadfullstackComponent } from './paginas/formcadfullstack/formcadfullstack.component';
 import { AdmobComponent } from './paginas/admob/admob.component';
 import { ListagemfullstackComponent } from './paginas/listagemfullstack/listagemfullstack.component';
+import { FormcadartesgrafiteComponent } from './paginas/formcadartesgrafite/formcadartesgrafite.component';
+import { FormeducacaoComponent } from './paginas/formeducacao/formeducacao.component';
+import { FormfotografiaComponent } from './paginas/formfotografia/formfotografia.component';
+import { FormtematicasComponent } from './paginas/formtematicas/formtematicas.component';
 
 
 
@@ -45,6 +49,10 @@ const routes: Routes = [
  {path: 'FormFullStack', component: FormcadfullstackComponent},
  {path: 'AdmMob', component: AdmobComponent},
  {path:'listagemFullStack', component:ListagemfullstackComponent},
+ {path:'FormArteGrafite', component: FormcadartesgrafiteComponent },
+ {path:'FormEducacao', component: FormeducacaoComponent}, 
+ {path:'FormFotografia', component: FormfotografiaComponent},
+ {path:'FormTematicas', component: FormtematicasComponent},
 ]
 
 @NgModule({

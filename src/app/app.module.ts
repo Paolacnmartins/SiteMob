@@ -27,6 +27,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { AdmobComponent } from './paginas/admob/admob.component';
 import { ListagemfullstackComponent } from './paginas/listagemfullstack/listagemfullstack.component';
+import { FormcadartesgrafiteComponent } from './paginas/formcadartesgrafite/formcadartesgrafite.component';
+import { FormeducacaoComponent } from './paginas/formeducacao/formeducacao.component';
+import { FormfotografiaComponent } from './paginas/formfotografia/formfotografia.component';
+import { FormtematicasComponent } from './paginas/formtematicas/formtematicas.component';
 
 
 @NgModule({
@@ -54,6 +58,10 @@ import { ListagemfullstackComponent } from './paginas/listagemfullstack/listagem
     FormcadfullstackComponent,
     AdmobComponent,
     ListagemfullstackComponent,
+    FormcadartesgrafiteComponent,
+    FormeducacaoComponent,
+    FormfotografiaComponent,
+    FormtematicasComponent,
 
   ],
   imports: [
