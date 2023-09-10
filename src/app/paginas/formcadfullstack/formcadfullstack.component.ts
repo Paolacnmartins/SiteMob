@@ -26,7 +26,7 @@ export class FormcadfullstackComponent {
   }
   async salvarTarefa() {
     await firstValueFrom(this.candidatoService.adicionar(this.checkoutForm.value));
-    alert("Tarefa add com sucesso");
+    alert("Cadastro enviado com sucesso");
     this.router.navigate(["/FullStack"]);
   }
 
