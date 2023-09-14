@@ -29,7 +29,7 @@ import { FormtematicasComponent } from './paginas/formtematicas/formtematicas.co
 
 
 const routes: Routes = [
- { path: ' ', component:HomeComponent },
+ { path: '', component:HomeComponent },
  { path: 'Quemsomos', component: QuemsomosComponent}, 
  { path: 'Projetos', component: ProjetosComponent},
  { path:'Doar', component: DoarComponent},
